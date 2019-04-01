@@ -4,42 +4,32 @@
 
 Overview
 ---
-This repository contains starting files for the Behavioral Cloning Project.
-
 In this project, deep neural networks and convolutional neural networks are used to clone driving behavior. A model is trained, validated and tested using Keras. The model will output a steering angle to an autonomous vehicle.
 
 A simulator is used to steer a car around a track for data collection. Image data and steering angles are used to train a neural network and then this model is used to drive the car autonomously around the track.
 
 
-Creating a Great Writeup
----
-A great writeup should include the [rubric points](https://review.udacity.com/#!/rubrics/432/view) as well as your description of how you addressed each point.  You should include a detailed description of the code used (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.  
-
-All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :). 
-
-You're not required to use markdown for your writeup.  If you use another method please just submit a pdf of your writeup.
-
 The Project
 ---
-The goals / steps of this project are the following:
+The steps of this project are the following:
 * The simulator is used to collect data of good driving behavior 
 * A model is designed, trained and validated that predicts a steering angle from image data
-* The model is usedto drive the vehicle autonomously around the first track in the simulator. The vehicle remain on the road for an entire loop around the track.
+* The model is used to drive the vehicle autonomously around the first track in the simulator. The vehicle remain on the road for an entire loop around the track.
 *The results are summarized with a written [report](writeup_report.pdf)
 
 ### Dependencies
-This lab requires:
+The code for this project required:
 
 * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
 
-The lab enviroment can be created with CarND Term1 Starter Kit. Click [here](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) for the details.
+Click [here](https://github.com/udacity/CarND-Term1-Starter-Kit/blob/master/README.md) for the details.
 
 The following resources can be found in this github repository:
 * drive.py
 * video.py
 * writeup_template.md
 
-The simulator can be downloaded from the classroom. The classroom also provided sample data to optionally train the model.
+The simulator can be downloaded from the Udacity Self-Driving Car Engineer classroom. The classroom also provided sample data to optionally train the model.
 
 ## Details About Files In This Directory
 
